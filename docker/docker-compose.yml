@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+
+  pipeline:
+
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
+    container_name: clara_pipeline
+
+    volumes:
+      - ../dataset:/app/dataset
+      - ../transcripts:/app/transcripts
+      - ../outputs:/app/outputs
+      - ../scripts:/app/scripts
+      - ../changelog:/app/changelog
+
+    working_dir: /app
+
+    command: tail -f /dev/null
