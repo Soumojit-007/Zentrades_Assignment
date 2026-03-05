@@ -1,0 +1,56 @@
+[
+  {
+    "count": 5,
+    "added": false,
+    "removed": false,
+    "value": "{\n  \"account_id\": \"3b39ff93-3e43-49df-8991-c74107dd7700\",\n  \"after_hours_flow_summary\": \"Only emergency calls from GNM Pressure Washing should be transferred to Ben. All other callers should be informed that the business will respond the next business day.\",\n  \"business_hours\": {\n    \"days\": \"Monday-Friday\",\n"
+  },
+  {
+    "count": 2,
+    "added": false,
+    "removed": true,
+    "value": "    \"end\": \"16:30\",\n    \"start\": \"08:00\",\n"
+  },
+  {
+    "count": 2,
+    "added": true,
+    "removed": false,
+    "value": "    \"end\": \"17:00\",\n    \"start\": \"08:30\",\n"
+  },
+  {
+    "count": 32,
+    "added": false,
+    "removed": false,
+    "value": "    \"timezone\": \"local\"\n  },\n  \"call_transfer_rules\": {\n    \"retries\": 2,\n    \"timeout\": \"30 seconds\"\n  },\n  \"company_name\": \"Ben's Electric Solutions Team\",\n  \"emergency_definition\": [\n    \"gas station electrical issue\"\n  ],\n  \"emergency_routing_rules\": [\n    {\n      \"action\": \"transfer to Ben\",\n      \"client\": \"GNM Pressure Washing\"\n    }\n  ],\n  \"integration_constraints\": [],\n  \"non_emergency_routing_rules\": [\n    \"collect customer name\",\n    \"collect phone number\",\n    \"collect job details\",\n    \"notify Ben\"\n  ],\n  \"notes\": \"Just give me a second, we'll let Ben in.\\r\\nOkay, so Navins, can I change his name to?\\r\\nIf we going forward, Navin, if you can put Clara's display picture, they'll be helpful.\\r\\nClara's support, I'm changing your name.\\r\\nOkay, cool.\\r\\nI'll let him in.\\r\\nYes.\\r\\nThe good.\\r\\nAll right.\\r\\nLet him in in three, two, one.\\r\\nAnd Ben is in very sweet guy by the way.\\r\\nHe's in.\\r\\nHey, Ben, good afternoon.\\r\\nOh, wait.\\r\\nOh, hey, hi, good afternoon.\\r\\nHey, Ben, how are you?\\r\\nI'm doing well, are you?\\r\\nVery well.\\r\\nThank you\",\n  \"office_address\": \"\",\n  \"office_hours_flow_summary\": \"Collect customer name, phone number, job details and notify Ben via SMS and email.\",\n  \"questions_or_unknowns\": [\n    \"office address missing\",\n    \"full list of services unknown\"\n  ],\n  \"services_supported\": [\n    \"electrical service calls\",\n"
+  },
+  {
+    "count": 1,
+    "added": true,
+    "removed": false,
+    "value": "    \"quotes\",\n"
+  },
+  {
+    "count": 1,
+    "added": false,
+    "removed": false,
+    "value": "    \"small electrical jobs\",\n"
+  },
+  {
+    "count": 1,
+    "added": false,
+    "removed": true,
+    "value": "    \"quotes for electrical work\"\n"
+  },
+  {
+    "count": 1,
+    "added": true,
+    "removed": false,
+    "value": "    \"commercial electrical support\"\n"
+  },
+  {
+    "count": 2,
+    "added": false,
+    "removed": false,
+    "value": "  ]\n}"
+  }
+]

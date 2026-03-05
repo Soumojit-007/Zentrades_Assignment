@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Whisper model cache
+*.pt
+
+# Temporary transcripts
+transcripts/*.json
+transcripts/*.srt
+transcripts/*.vtt
+
+# n8n local config
+.n8n/
+
+# Docker local data
+docker-data/
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+
+# System temp
+*.swp
+*.swo
+
+# Raw audio files (dataset privacy)
+dataset/demo_calls/*.m4a
+dataset/demo_calls/*.mp4

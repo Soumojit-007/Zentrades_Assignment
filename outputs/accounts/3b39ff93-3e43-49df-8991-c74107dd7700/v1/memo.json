@@ -1,0 +1,43 @@
+{
+  "account_id": "3b39ff93-3e43-49df-8991-c74107dd7700",
+  "company_name": "Ben's Electric Solutions Team",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "08:00",
+    "end": "16:30",
+    "timezone": "local"
+  },
+  "office_address": "",
+  "services_supported": [
+    "electrical service calls",
+    "small electrical jobs",
+    "quotes for electrical work"
+  ],
+  "emergency_definition": [
+    "gas station electrical issue"
+  ],
+  "emergency_routing_rules": [
+    {
+      "client": "GNM Pressure Washing",
+      "action": "transfer to Ben"
+    }
+  ],
+  "non_emergency_routing_rules": [
+    "collect customer name",
+    "collect phone number",
+    "collect job details",
+    "notify Ben"
+  ],
+  "call_transfer_rules": {
+    "timeout": "30 seconds",
+    "retries": 2
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "Only emergency calls from GNM Pressure Washing should be transferred to Ben. All other callers should be informed that the business will respond the next business day.",
+  "office_hours_flow_summary": "Collect customer name, phone number, job details and notify Ben via SMS and email.",
+  "questions_or_unknowns": [
+    "office address missing",
+    "full list of services unknown"
+  ],
+  "notes": "Just give me a second, we'll let Ben in.\r\nOkay, so Navins, can I change his name to?\r\nIf we going forward, Navin, if you can put Clara's display picture, they'll be helpful.\r\nClara's support, I'm changing your name.\r\nOkay, cool.\r\nI'll let him in.\r\nYes.\r\nThe good.\r\nAll right.\r\nLet him in in three, two, one.\r\nAnd Ben is in very sweet guy by the way.\r\nHe's in.\r\nHey, Ben, good afternoon.\r\nOh, wait.\r\nOh, hey, hi, good afternoon.\r\nHey, Ben, how are you?\r\nI'm doing well, are you?\r\nVery well.\r\nThank you"
+}
