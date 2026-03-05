@@ -8,7 +8,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Environment variables
+# Environment variablesgit commit -m "Initial commit"
 .env
 .env.local
 
@@ -46,3 +46,6 @@ docker-compose.override.yml
 # Raw audio files (dataset privacy)
 dataset/demo_calls/*.m4a
 dataset/demo_calls/*.mp4
+
+dataset/demo_calls/
+changelog/
